@@ -1,0 +1,12 @@
+# ignora carpeta de modulos de Node
+/node_modules
+
+# ignora archivos de configuración de paquetes
+/package-lock.json
+/package.json
+
+# ignora archivo de seguimiento de sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
