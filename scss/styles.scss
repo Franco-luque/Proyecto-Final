@@ -5,4 +5,12 @@ $success: #44633f;
 $warning: #e3b23c;
 $info: #00e0ca;
 
+.line {
+  background-color: #fefefe;
+  height: 2px;
+  width: 150px;
+  margin: 0 1rem;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
