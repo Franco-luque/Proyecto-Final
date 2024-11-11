@@ -404,41 +404,41 @@
           <div class="line bg-dark"></div>
         </div>
         <form class="container px-5">
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
+          <div class="form-floating mb-3">
             <input
-              type="text"
+              type="nombre"
               class="form-control"
               id="nombre"
-              placeholder="Ingrese su nombre"
+              placeholder="Ingrese su nombre y apellido"
             />
+            <label for="floatingInput">Ingrese su nombre y apellido</label>
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
+          <div class="form-floating mb-3">
             <input
               type="email"
               class="form-control"
               id="email"
-              placeholder="Ingrese su email"
+              placeholder="Ingrese un teléfono de contacto"
             />
+            <label for="floatingInput">Ingrese su correo</label>
           </div>
-          <div class="mb-3">
-            <label for="telefono" class="form-label">Teléfono</label>
+          <div class="form-floating mb-3">
             <input
-              type="number"
+              type="text"
               class="form-control"
               id="telefono"
               placeholder="Ingrese un teléfono de contacto"
             />
+            <label for="floatingInput">Ingrese su telefono</label>
           </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje</label>
+          <div class="form-floating mb-3">
             <textarea
               class="form-control"
+              placeholder="Deje su mensaje..."
               id="mensaje"
-              placeholder="Escriba un mensaje..."
-              rows="5"
+              style="height: 100px"
             ></textarea>
+            <label for="floatingTextarea">Mensaje</label>
           </div>
           <button type="submit" class="btn btn-primary">
             <i class="bi bi-send"></i> Enviar
