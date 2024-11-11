@@ -76,9 +76,9 @@
       >
         <h2 class="pt-5 fw-bolder fs-1">Portafolio</h2>
         <div class="d-flex gap-2 align-items-center mb-3">
-          <div class="line bg-secondary"></div>
+          <div class="line bg-dark"></div>
           <i class="bi bi-star-fill fs-4"></i>
-          <div class="line bg-secondary"></div>
+          <div class="line bg-dark"></div>
         </div>
         <div class="container-fluid">
           <div class="row row-gap-4">
@@ -393,7 +393,58 @@
         </button>
       </section>
       <!-- Contacto -->
-      <section id="contacto"></section>
+      <section
+        id="contacto"
+        class="container d-flex align-items-center p-5 flex-column"
+      >
+        <h2 class="pt-5 fw-bolder fs-1 primary text-primary">Contacto</h2>
+        <div class="d-flex gap-2 align-items-center mb-3">
+          <div class="line bg-dark"></div>
+          <i class="bi bi-star-fill fs-4 text-primary"></i>
+          <div class="line bg-dark"></div>
+        </div>
+        <form class="container px-5">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Ingrese su email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input
+              type="number"
+              class="form-control"
+              id="telefono"
+              placeholder="Ingrese un teléfono de contacto"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              placeholder="Escriba un mensaje..."
+              rows="5"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="bi bi-send"></i> Enviar
+          </button>
+        </form>
+      </section>
     </main>
     <footer></footer>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
