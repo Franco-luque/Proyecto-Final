@@ -3,13 +3,16 @@ $secondary: #8d98a7;
 $danger: #cd533b;
 $success: #44633f;
 $warning: #e3b23c;
-$info: #00e0ca;
+$info: #5abcb9;
 
 .line {
   background-color: #fefefe;
   height: 2px;
-  width: 150px;
-  margin: 0 1rem;
+  width: 130px;
+}
+
+.card {
+  cursor: pointer;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

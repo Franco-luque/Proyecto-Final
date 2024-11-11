@@ -25,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto gap-3">
               <li class="nav-item">
                 <a
                   class="nav-link active"
@@ -62,7 +62,7 @@
         </p>
         <div class="d-flex gap-2 align-items-center">
           <div class="line"></div>
-          <i class="bi bi-star-fill fs-4"></i>
+          <i class="bi bi-star-fill fs-4 mx-3"></i>
           <div class="line"></div>
         </div>
         <p class="text-center fs-5 fst-italic">
@@ -83,7 +83,7 @@
         <div class="container-fluid">
           <div class="row row-gap-4">
             <!-- Tarjeta disparadora de Modal -->
-            <article class="col-12 col-sm-6 col-lg-4">
+            <article class="col-12 col-sm-6 col-lg-4 mb-4">
               <div
                 class="card position-relative"
                 data-bs-toggle="modal"
@@ -94,6 +94,7 @@
                   alt="batman"
                   class="card-img-top"
                 />
+                <div class="line bg-secondary mx-auto"></div>
                 <div class="card-body">
                   <p class="h3 card-text text-center">CV Batman</p>
                 </div>
@@ -120,58 +121,230 @@
                         aria-label="Close"
                       ></button>
                     </header>
-                    <main class="modal-body">
-                      <div class="text-center"></div>
+                    <main class="modal-body text-center">
+                      <!-- <div class="text-center"></div> -->
+                      <!-- Acá va una captura de pantalla de la página-->
+                      <a
+                        type="button"
+                        class="btn btn-success"
+                        href="#"
+                        target="_blank"
+                        >Ver repositorio</a
+                      >
                     </main>
                   </div>
                 </div>
               </div>
             </article>
-            <article class="col-12 col-sm-6 col-lg-4">
-              <div class="card position-relative">
+            <article class="col-12 col-sm-6 col-lg-4 mb-4">
+              <div
+                class="card position-relative"
+                data-bs-toggle="modal"
+                data-bs-target="#gameshopModal"
+              >
                 <img
                   src="../Maquetacion_Bootstrap/img/gameshop.jpeg"
-                  alt="batman"
+                  alt="control de videojuegos"
                   class="card-img-top"
                 />
+                <div class="line bg-secondary mx-auto"></div>
                 <div class="card-body">
-                  <p class="h3 card-text text-center">CV Batman</p>
+                  <p class="h3 card-text text-center">Games Shop</p>
+                </div>
+              </div>
+              <!-- Ventana Modal -->
+              <div
+                class="modal fade"
+                id="gameshopModal"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="gameshopModalLabel"
+                style="display: none"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <header class="modal-header">
+                      <h2 class="modal-title" id="gameshopModalLabel">
+                        Games Shop
+                      </h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </header>
+                    <main class="modal-body text-center">
+                      <!-- <div class="text-center"></div> -->
+                      <!-- Acá va una captura de pantalla de la página-->
+                      <a
+                        type="button"
+                        class="btn btn-success"
+                        href="#"
+                        target="_blank"
+                        >Ver repositorio</a
+                      >
+                    </main>
+                  </div>
                 </div>
               </div>
             </article>
-            <article class="col-12 col-sm-6 col-lg-4">
-              <div class="card position-relative">
+            <article class="col-12 col-sm-6 col-lg-4 mb-4">
+              <div
+                class="card position-relative"
+                data-bs-toggle="modal"
+                data-bs-target="#petshopModal"
+              >
                 <img
                   src="../Maquetacion_Bootstrap/img/petshop.jpeg"
-                  alt="batman"
+                  alt="logo de un gato y un perro"
                   class="card-img-top"
                 />
+                <div class="line bg-secondary mx-auto"></div>
                 <div class="card-body">
-                  <p class="h3 card-text text-center">CV Batman</p>
+                  <p class="h3 card-text text-center">Pet Shop</p>
+                </div>
+              </div>
+              <!-- Ventana Modal -->
+              <div
+                class="modal fade"
+                id="petshopModal"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="petshopModalLabel"
+                style="display: none"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <header class="modal-header">
+                      <h2 class="modal-title" id="petshopModalLabel">
+                        Pet Shop
+                      </h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </header>
+                    <main class="modal-body text-center">
+                      <!-- <div class="text-center"></div> -->
+                      <!-- Acá va una captura de pantalla de la página-->
+                      <a
+                        type="button"
+                        class="btn btn-success"
+                        href="#"
+                        target="_blank"
+                        >Ver repositorio</a
+                      >
+                    </main>
+                  </div>
                 </div>
               </div>
             </article>
-            <article class="col-12 col-sm-6 col-lg-4">
-              <div class="card position-relative">
+            <article class="col-12 col-sm-6 col-lg-4 mb-4">
+              <div
+                class="card position-relative"
+                data-bs-toggle="modal"
+                data-bs-target="#pizzeriaModal"
+              >
                 <img
                   src="../Maquetacion_Bootstrap/img/piza.jpeg"
-                  alt="batman"
+                  alt="porción de pizza"
                   class="card-img-top"
                 />
+                <div class="line bg-secondary mx-auto"></div>
                 <div class="card-body">
-                  <p class="h3 card-text text-center">CV Batman</p>
+                  <p class="h3 card-text text-center">Pizzería</p>
+                </div>
+              </div>
+              <!-- Ventana Modal -->
+              <div
+                class="modal fade"
+                id="pizzeriaModal"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="pizzeriaModalLabel"
+                style="display: none"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <header class="modal-header">
+                      <h2 class="modal-title" id="pizeriaModalLabel">
+                        Pizzería
+                      </h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </header>
+                    <main class="modal-body text-center">
+                      <!-- <div class="text-center"></div> -->
+                      <!-- Acá va una captura de pantalla de la página-->
+                      <a
+                        type="button"
+                        class="btn btn-success"
+                        href="#"
+                        target="_blank"
+                        >Ver repositorio</a
+                      >
+                    </main>
+                  </div>
                 </div>
               </div>
             </article>
-            <article class="col-12 col-sm-6 col-lg-4">
-              <div class="card position-relative">
+            <article class="col-12 col-sm-6 col-lg-4 mb-4">
+              <div
+                class="card position-relative"
+                data-bs-toggle="modal"
+                data-bs-target="#supershopModal"
+              >
                 <img
                   src="../Maquetacion_Bootstrap/img/super.png"
-                  alt="batman"
+                  alt="logo con leyenda super"
                   class="card-img-top"
                 />
+                <div class="line bg-secondary mx-auto"></div>
                 <div class="card-body">
-                  <p class="h3 card-text text-center">CV Batman</p>
+                  <p class="h3 card-text text-center">Tienda de Héroes</p>
+                </div>
+              </div>
+              <!-- Ventana Modal -->
+              <div
+                class="modal fade"
+                id="supershopModal"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="supershopModalLabel"
+                style="display: none"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <header class="modal-header">
+                      <h2 class="modal-title" id="supershopModalLabel">
+                        Tienda de Héroes
+                      </h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </header>
+                    <main class="modal-body text-center">
+                      <!-- <div class="text-center"></div> -->
+                      <!-- Acá va una captura de pantalla de la página-->
+                      <a
+                        type="button"
+                        class="btn btn-success"
+                        href="#"
+                        target="_blank"
+                        >Ver repositorio</a
+                      >
+                    </main>
+                  </div>
                 </div>
               </div>
             </article>
