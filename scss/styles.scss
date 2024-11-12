@@ -13,6 +13,12 @@ $info: #5abcb9;
 
 .card {
   cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #0c0c0c3b;
+  transform: scale(1.05);
 }
 
 #copyright {
