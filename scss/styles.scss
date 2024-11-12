@@ -11,7 +11,8 @@ $info: #5abcb9;
   width: 130px;
 }
 
-.card {
+.card,
+footer a {
   cursor: pointer;
   transition: all 300ms ease;
 }
@@ -19,6 +20,10 @@ $info: #5abcb9;
 .card:hover {
   box-shadow: 0 0 10px #0c0c0c3b;
   transform: scale(1.05);
+}
+
+footer a:hover {
+  transform: scale(1.25);
 }
 
 #copyright {
