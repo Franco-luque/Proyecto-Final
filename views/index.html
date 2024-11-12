@@ -82,6 +82,7 @@
           <i class="bi bi-star-fill fs-4"></i>
           <div class="line bg-dark"></div>
         </div>
+        <!-- Cards-->
         <div class="container-fluid">
           <div class="row row-gap-4">
             <!-- Tarjeta disparadora de Modal -->
@@ -350,6 +351,59 @@
                 </div>
               </div>
             </article>
+            <article class="col-12 col-sm-6 col-lg-4 mb-4">
+              <div
+                class="card position-relative"
+                data-bs-toggle="modal"
+                data-bs-target="#lemonModal"
+              >
+                <img
+                  src="../Maquetacion_Bootstrap/img/lemon-pie.jpeg"
+                  alt="logo de una porción de lemon pie"
+                  class="card-img-top"
+                />
+                <div class="line bg-secondary mx-auto"></div>
+                <div class="card-body">
+                  <p class="h3 card-text text-center">Lemon Pie</p>
+                </div>
+              </div>
+              <!-- Ventana Modal -->
+              <div
+                class="modal fade"
+                id="lemonModal"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="lemonModalLabel"
+                style="display: none"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <header class="modal-header">
+                      <h2 class="modal-title" id="lemonModalLabel">
+                        Receta de Lemon Pie
+                      </h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </header>
+                    <main class="modal-body text-center">
+                      <!-- <div class="text-center"></div> -->
+                      <!-- Acá va una captura de pantalla de la página-->
+                      <a
+                        type="button"
+                        class="btn btn-success"
+                        href="#"
+                        target="_blank"
+                        >Ver repositorio</a
+                      >
+                    </main>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -431,7 +485,7 @@
               id="telefono"
               placeholder="Ingrese un teléfono de contacto"
             />
-            <label for="floatingInput">Ingrese su telefono</label>
+            <label for="floatingInput">Ingrese su teléfono</label>
           </div>
           <div class="form-floating mb-3">
             <textarea
@@ -467,11 +521,12 @@
         </div>
       </div>
       <!-- Copyright-->
-      <div class="container text-light text-center">
+      <div class="text-light text-center" id="copyright">
         <span>Copyright ©</span>
         <script>
           document.write(new Date().getFullYear());
         </script>
+        - Todos los derechos reservados.
       </div>
     </footer>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
